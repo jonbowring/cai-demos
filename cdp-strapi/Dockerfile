@@ -3,7 +3,6 @@ FROM strapi/base
 WORKDIR /my-path
 
 COPY ./package.json ./
-#COPY ./yarn.lock ./
 
 RUN yarn install -y build-essential
 
